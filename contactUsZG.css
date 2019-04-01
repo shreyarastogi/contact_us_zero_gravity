@@ -1,0 +1,160 @@
+h1{
+	position: absolute;
+	left: 50.00%;
+	right: 50.00%;
+	top: 1.00%;
+	bottom: 88.9%;
+
+color: #FFC403;
+font-family: 'Lato', sans-serif;
+
+}
+
+#Name{
+	position: absolute;
+	left: 14.46%;
+	right:79.74%;
+	top:14.73%;
+	bottom:70.34%;
+
+	color: #FFC403;
+	font-family: 'Lato',sans-serif;
+    font-size: 25px;
+	font-style: bold;
+
+}
+#NameInput{
+	position: absolute;
+	left: 14.31%;
+	right: 51.46%;
+	top: 20.16%;
+	bottom:74.31%;
+	border-radius: 8px;
+
+	width: 350px;
+
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Email{
+	position: absolute;
+	left: 14.47%;
+	right:79.93%;
+	top:26.91%;
+	bottom:61.16%;
+
+	color: #FFC403;
+	font-family: 'Lato',sans-serif;
+    font-size: 25px;
+	font-style: bold;
+}
+
+#EmailInput{
+	position: absolute;
+	left: 14.31%;
+	right: 51.46%;
+	top: 32.48%;
+	bottom: 62.00%;
+	border-radius: 8px;
+
+	width: 350px;
+
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*#subject{
+
+	position: absolute;
+	left: 14.47%;
+	right:76.84%;
+	top:38.09%;
+	bottom:43.18%;
+
+	color: #FFC403;
+	font-family: 'Lato',sans-serif;
+    font-size: 25px;
+	font-style: bold;
+}
+#SubjectInput{
+	position: absolute;
+	left: 14.31%;
+	right: 51.46%;
+	top: 44.79%;
+	bottom: 48.81%;
+
+	width: 350px;
+
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}*/
+#Message{
+	position: absolute;
+	left: 14.47%;
+	right:76.84%;
+	top:38.7%;
+	bottom:65.79%;
+
+	color: #FFC403;
+	font-family: 'Lato',sans-serif;
+    font-size: 25px;
+	font-style: bold;
+}
+#MessageInput{
+	position: absolute;
+	left: 14.31%;
+	right: 51.46%;
+	top: 45.4%;
+	
+
+	width: 350px;
+	height: 100px;
+	border-radius: 8px;
+
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#line{
+	position: absolute;
+	left: 53.3%;
+	right: 48.7%;
+	top: 18.16%;
+	bottom: 7.58%;
+
+	border: 1px solid rgba(255, 196, 3, 0.6);
+
+}
+
+#submit{
+	position: absolute;
+	left: 14.31%;
+	right: 51.46%;
+	top:67.00%;
+
+	padding:5px;
+
+	background-color: #FFC403;
+	
+
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	width: 350px;
+	height: 50px;
+
+	border-radius: 8px;
+	font-size: 30px;
+
+	font-style: bold;
+
+    font-family: 'Lato',sans-serif;
+
+}
+
+#alt{
+	font-family: 'Lato',sans-serif;
+	
+	position: absolute;
+	top: 75.00%;
+	left:14.31%;
+
+	font-size: 30px;
+
+}
