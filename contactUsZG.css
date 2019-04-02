@@ -1,31 +1,22 @@
 
 
-#container{ 
-  /* The image used */
-  background-image: url("2T6B5242.jpg");
-
-  /* Full height */
-  height: 100%; 
-  /*-webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 
-  filter: grayscale(80%);*/
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  /*background-repeat: no-repeat;*/
-  background-size: cover;
- 
-}
-#container
-{
-	background-color: #000000;
-	/*opacity: 0.5;*/
-}
 
 
 body {
- /*background-image: url("2T6B5242.jpg");*/
- background-color: #3d3636;
+ background-image: url("2T6B5242.jpg");
+/* background-color: #3d3636;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
  height: 100%;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: flex; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+  
 }
 
 
@@ -148,8 +139,8 @@ h1{
 	position: absolute;
 	left: 50.3%;
 	right: 50.7%;
-	top: 18.16%;
-	bottom: 7.58%;
+	top: 15.16%;
+	bottom: 15%;
 
 	border: 1px solid rgba(255, 196, 3, 0.6);
 
@@ -164,8 +155,8 @@ h1{
 	padding:5px;
 
 	background-color: #FFC403;
-	color: #ffffff;
-
+	
+    color: #ffffff;
 	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 	width: 350px;
@@ -184,7 +175,7 @@ h1{
 	font-family: 'Lato',sans-serif;
 	
 	position: absolute;
-	top: 75.00%;
+	top: 74.00%;
 	left:14.31%;
 
 	font-size: 30px;
@@ -192,4 +183,35 @@ h1{
 }
 p{
 	color: #ffffff;
+}
+ul{
+	
+	top:50%;
+	bottom: 50%;
+	left:50%;
+}
+ul li
+{
+	list-style: none;
+	width: 1350px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+
+}
+#hello
+{
+	position: absolute;
+	top: 14.73%;
+}
+#footer { 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+  display: block;
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
 }
